@@ -10,6 +10,15 @@ namespace RPG
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                RPG.Assets.Creatures.Entities Dummy = RPG.Assets.Creatures.NPC.Monster.MonsterFactory.SpawnRandom(19);
+                Dummy.PrintLevel();
+                Console.ReadKey();
+            }
+
+            // Fertig
+            Console.ReadKey();
         }
     }
 }
