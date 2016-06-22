@@ -49,6 +49,8 @@
     <Compile Include="Assets\Creatures\NPC\Monster\Vampire.cs" />
     <Compile Include="Assets\Creatures\NPC\Monster\Skelleton.cs" />
     <Compile Include="Assets\Item\Item.cs" />
+    <Compile Include="Assets\Item\ItemFactory.cs" />
+    <Compile Include="Assets\Item\Data.cs" />
     <Compile Include="Assets\Item\Weapons\Weapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +72,9 @@
     <Folder Include="Assets\Creatures\NPC\Bosses\" />
     <Folder Include="Assets\DLL\" />
     <Folder Include="Assets\Item\Armor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Item\ItemNames.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

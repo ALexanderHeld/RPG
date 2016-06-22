@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <weapons ItemType="weapon">
+    <sword WeaponType="sword">
+      <name id="0">Sword</name>
+      <name id="1">Bloodrazor</name>
+      <name id="2">Lightblade</name>
+      <name id="3">Giant Blade</name>
+    </sword>
+  </weapons>
+  <suffix>
+    <name id="0">Holy</name>
+    <name id="1">Bloodseeking</name>
+  </suffix>
+</root>

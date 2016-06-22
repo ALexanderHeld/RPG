@@ -12,13 +12,9 @@ namespace RPG
         {
             while (true)
             {
-                RPG.Assets.Creatures.Entities Dummy = RPG.Assets.Creatures.NPC.Monster.MonsterFactory.SpawnRandom(19);
-                Dummy.PrintLevel();
-                Console.ReadKey();
+                // RPG.Assets.Item.Item testItem = RPG.Assets.Item.ItemFactory.CreateWeapon();
+                RPG.Assets.Item.Data.PrintNames();
             }
-
-            // Fertig
-            Console.ReadKey();
         }
     }
 }
