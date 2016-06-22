@@ -12,7 +12,7 @@ namespace RPG.Assets.Item
         // Sword Names
         public static List<string> SwordNames = new List<string>()
         {
-            "Blade",
+            "Draughtbane",
             "Giant Blade",
             "Razorsharp Blade",
             "Lasersword",
@@ -20,29 +20,22 @@ namespace RPG.Assets.Item
         };
         public static int SwordNamesLength = SwordNames.Count;
 
-        // Präfix
-        public static List<string> Präfix = new List<string>()
+        // Gun Names
+        public static List<string> GunNames = new List<string>()
         {
-            "Holy",
-            "Unholy",
-            "Vampiristic",
-            "Bloodseeking",
-            "Thundering"
+            "Short-Range Electron Shooter",
+            "Cosmic Plasma Blaster",
+            "Trans-Warp Proton Pistol",
+            "Alpha Thermal Equalizer",
+            "Heavy Meson Eraser",
+            "Pure Ray Cannon",
+            "Hero's Thermal Pistol",
+            "Reach of Ending Misery",
+            "Bond of the Incoming Storm",
+            "Dawn of Fallen Souls"
         };
-        public static int PräfixLength = Präfix.Count;
+        public static int GunNamesLength = GunNames.Count;
 
-        // Suffix 
-        public static Dictionary<Item.Rarity, string> Suffix = new Dictionary<Item.Rarity, string>()
-        {
-            {Item.Rarity.Common, "testC" },
-            {Item.Rarity.Rare, "testR" },
-            {Item.Rarity.Epic, "testE1" },
-            {Item.Rarity.Epic, "testE2" }
-        };
-        public static Dictionary<Item.Rarity, int> SuffixLength = new Dictionary<Item.Rarity, int>()
-        {
-            {Item.Rarity.Common, Suffix.Count(}
-        };
 
     }
 
